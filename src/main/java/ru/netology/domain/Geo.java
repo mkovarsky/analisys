@@ -1,6 +1,10 @@
 package ru.netology.domain;
 
 public class Geo {
+    private String type;
+    private String coordinatesInfo;
+    private Place place;
+
     public String getType() {
         return type;
     }
@@ -25,7 +29,4 @@ public class Geo {
         this.place = place;
     }
 
-    private String type;
-    private String coordinatesInfo;
-    private Place place;
 }
